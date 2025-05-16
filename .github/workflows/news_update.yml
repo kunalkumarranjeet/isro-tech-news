@@ -1,19 +1,19 @@
-name: Update ISRO Tech News
+name: Update ISRO Tech News RSS Feed
 
 on:
   schedule:
     - cron: '*/10 * * * *'  # runs every 10 minutes
-  workflow_dispatch:        # allows manual running too
+  workflow_dispatch:  # manual trigger possible
 
 jobs:
-  run-script:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repo code
         uses: actions/checkout@v3
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
@@ -21,5 +21,13 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run filter script
+      - name: Run filter_news.py to update feed.xml
         run: python filter_news.py
+
+      - name: Commit and push updated feed.xml
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add feed.xml
+          git commit -m "Auto update feed.xml" || echo "No changes to commit"
+          git push
