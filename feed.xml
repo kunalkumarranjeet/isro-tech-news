@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-  <title>ISRO & Tech News</title>
+  <title>ISRO &amp; Tech News</title>
   <link>https://github.com/kunalkumaranjeet/isro-feed</link>
   <description>Filtered news feed for ISRO and tech updates</description>
 
@@ -22,7 +22,7 @@
     <item>
       <title>ISRO to launch earth imaging satellite from Sriharikota on May 18, MPs to witness event</title>
       <link>https://www.thehindu.com/sci-tech/science/isro-to-launch-earth-imaging-satellite-from-sriharikota-on-may-18-mps-to-witness-the-event/article69566801.ece</link>
-      <description>The EOS-09 satellite, weighing around 1,710 kg, will join India's growing constellation of Earth observation assets, addressing the need for expanded real-time coverage across the country’s vast territory</description>
+      <description>The EOS-09 satellite, weighing around 1,710 kg, will join India&apos;s growing constellation of Earth observation assets, addressing the need for expanded real-time coverage across the country’s vast territory</description>
       <pubDate>Mon, 12 May 2025 15:34:26 +0530</pubDate>
     </item>
     
