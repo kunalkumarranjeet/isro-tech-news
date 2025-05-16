@@ -32,3 +32,28 @@ if __name__ == "__main__":
             print(f"- {article['title']}\n  Link: {article['link']}")
     else:
         print("No relevant news found.")
+rss_content = '''<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>ISRO & Tech News</title>
+  <link>https://github.com/kunalkumaranjeet/isro-feed</link>
+  <description>Filtered news feed for ISRO and tech updates</description>
+'''
+
+for news_item in filtered_news:
+    rss_content += f'''
+    <item>
+      <title>{news_item["title"]}</title>
+      <link>{news_item["link"]}</link>
+      <description>{news_item["summary"]}</description>
+      <pubDate>{news_item["published"]}</pubDate>
+    </item>
+    '''
+
+rss_content += '''
+</channel>
+</rss>
+'''
+
+with open('feed.xml', 'w', encoding='utf-8') as f:
+    f.write(rss_content)
