@@ -14,25 +14,31 @@ def fetch_and_filter_news():
         title = entry.title
         summary = entry.summary if 'summary' in entry else ""
         link = entry.link
+        published = entry.published if 'published' in entry else ""
 
         # Check if any keyword is in title or summary (case-insensitive)
         if any(keyword.lower() in title.lower() or keyword.lower() in summary.lower() for keyword in KEYWORDS):
             filtered_news.append({
                 'title': title,
-                'link': link
+                'link': link,
+                'summary': summary,
+                'published': published
             })
 
     return filtered_news
 
 if __name__ == "__main__":
-    news = fetch_and_filter_news()
-    if news:
-        print(f"Found {len(news)} relevant news articles:")
-        for article in news:
+    filtered_news = fetch_and_filter_news()  # assign returned list here
+    
+    if filtered_news:
+        print(f"Found {len(filtered_news)} relevant news articles:")
+        for article in filtered_news:
             print(f"- {article['title']}\n  Link: {article['link']}")
     else:
         print("No relevant news found.")
-rss_content = '''<?xml version="1.0" encoding="UTF-8" ?>
+
+    # Build RSS feed XML content
+    rss_content = '''<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
   <title>ISRO & Tech News</title>
@@ -40,8 +46,8 @@ rss_content = '''<?xml version="1.0" encoding="UTF-8" ?>
   <description>Filtered news feed for ISRO and tech updates</description>
 '''
 
-for news_item in filtered_news:
-    rss_content += f'''
+    for news_item in filtered_news:
+        rss_content += f'''
     <item>
       <title>{news_item["title"]}</title>
       <link>{news_item["link"]}</link>
@@ -50,10 +56,11 @@ for news_item in filtered_news:
     </item>
     '''
 
-rss_content += '''
+    rss_content += '''
 </channel>
 </rss>
 '''
 
-with open('feed.xml', 'w', encoding='utf-8') as f:
-    f.write(rss_content)
+    # Save RSS XML file
+    with open('feed.xml', 'w', encoding='utf-8') as f:
+        f.write(rss_content)
