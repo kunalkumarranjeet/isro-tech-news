@@ -1,0 +1,25 @@
+name: Update ISRO Tech News
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'  # runs every 10 minutes
+  workflow_dispatch:        # allows manual running too
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run filter script
+        run: python filter_news.py
