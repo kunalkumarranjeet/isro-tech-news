@@ -1,19 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>ISRO &amp; Tech News</title>
-    <link>https://github.com/kunalkumarranjeet/isro-feed</link>
-    <description>Filtered news feed for ISRO and tech updates</description>
-    <atom:link href="https://kunalkumarranjeet.github.io/isro-tech-news/feed.xml" rel="self" type="application/rss+xml" />
+<rss version="2.0">
+<channel>
+  <title>ISRO & Tech News</title>
+  <link>https://github.com/kunalkumaranjeet/isro-feed</link>
+  <description>Filtered news feed for ISRO and tech updates</description>
 
     <item>
-      <title>ISRO to launch EOS-09 satellite on May 18</title>
-      <link>https://www.thehindu.com/sci-tech/science/isro-to-launch-earth-imaging-satellite-from-sriharikota-on-may-18-mps-to-witness-the-event/article69566801.ece</link>
-      <description>EOS-09 satellite to enhance Earth observation across India.</description>
-      <pubDate>Sat, 17 May 2025 15:42:41 +0530</pubDate>
-      <guid>https://thehindu.com/article69566801.ece</guid>
-      <enclosure url="https://example.com/eos09.jpg" type="image/jpeg" />
+      <title>Intel has limited customer commitments for latest chip manufacturing tech, CFO says</title>
+      <link>https://www.thehindu.com/sci-tech/technology/intel-has-limited-customer-commitments-for-latest-chip-manufacturing-tech-cfo-says/article69573833.ece</link>
+      <description>The volume of processors Intel is set to produce for external customers using its upcoming manufacturing technology is currently "not significant", finance chief David Zinsner said</description>
+      <pubDate>Wed, 14 May 2025 09:09:05 +0530</pubDate>
     </item>
-
-  </channel>
+    
+    <item>
+      <title>Ray-Ban Meta smart glasses launch in India; pre-orders begin at ₹29,900</title>
+      <link>https://www.thehindu.com/sci-tech/technology/gadgets/ray-ban-meta-smart-glasses-launch-in-india-pre-orders-begin-at-29900/article69570247.ece</link>
+      <description>The smart glasses combine Ray-Ban’s established frame designs with integrated hardware and Meta’s AI technology</description>
+      <pubDate>Tue, 13 May 2025 11:33:44 +0530</pubDate>
+    </item>
+    
+    <item>
+      <title>ISRO to launch earth imaging satellite from Sriharikota on May 18, MPs to witness event</title>
+      <link>https://www.thehindu.com/sci-tech/science/isro-to-launch-earth-imaging-satellite-from-sriharikota-on-may-18-mps-to-witness-the-event/article69566801.ece</link>
+      <description>The EOS-09 satellite, weighing around 1,710 kg, will join India's growing constellation of Earth observation assets, addressing the need for expanded real-time coverage across the country’s vast territory</description>
+      <pubDate>Mon, 12 May 2025 15:34:26 +0530</pubDate>
+    </item>
+    
+    <item>
+      <title>U.S. firm Vast keen to use Indian rockets for rides to its planned space station</title>
+      <link>https://www.thehindu.com/business/Industry/us-firm-vast-keen-to-use-indian-rockets-for-rides-to-its-planned-space-station/article69563747.ece</link>
+      <description>Vast CEO Max Hoat discusses potential collaborations with ISRO for launching commercial space station using Indian rockets</description>
+      <pubDate>Sun, 11 May 2025 14:45:07 +0530</pubDate>
+    </item>
+    
+    <item>
+      <title>Quiz: Easy like Sunday morning quiz – What has May 11 ever given us?</title>
+      <link>https://www.thehindu.com/sci-tech/technology/easy-like-sunday-morning-quiz-by-berty-ashley-what-has-may-11-ever-given-us/article69544043.ece</link>
+      <description>What has May 11 ever given us? National Technology Day</description>
+      <pubDate>Fri, 09 May 2025 14:58:48 +0530</pubDate>
+    </item>
+    
+</channel>
 </rss>
