@@ -18,7 +18,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install Dependencies
-        run: pip install feedparser requests beautifulsoup4
+        run: pip install feedparser requests beautifulsoup4 pytz
 
       - name: Update Feed
         run: python filter_news.py  # This should generate and update feed.xml
@@ -33,4 +33,3 @@ jobs:
           else
             git commit -m "Update RSS feed"
             git push
-          fi
