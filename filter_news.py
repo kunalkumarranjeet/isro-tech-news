@@ -1,12 +1,14 @@
 import feedparser
 from datetime import datetime
 from email.utils import parsedate_to_datetime, format_datetime
-import pytz  # Make sure pytz is installed via pip
+import pytz
 
-FEED_URL = "https://www.thehindu.com/sci-tech/technology/feeder/default.rss"
-KEYWORDS = ["ISRO", "space", "tech", "technology"]
+# RSS Feeds
+TECH_FEED = "https://www.thehindu.com/sci-tech/technology/feeder/default.rss"
+WORLD_FEED = "https://www.thehindu.com/news/international/feeder/default.rss"
+
+TECH_KEYWORDS = ["ISRO", "space", "tech", "technology"]
 MAX_ITEMS = 5
-
 IST = pytz.timezone("Asia/Kolkata")
 
 def escape_xml(text):
@@ -26,11 +28,31 @@ def is_today_ist(pub_dt):
     ist_now = datetime.now(IST)
     return pub_dt.astimezone(IST).date() == ist_now.date()
 
-def generate_rss(items):
+def fetch_filtered_entries(feed_url, keyword_filter=False):
+    entries = []
+    feed = feedparser.parse(feed_url)
+
+    for entry in feed.entries:
+        try:
+            pub_dt = parsedate_to_datetime(entry.published)
+        except Exception:
+            continue
+
+        if not is_today_ist(pub_dt):
+            continue
+
+        if keyword_filter and not contains_keywords(entry.title + " " + entry.summary, TECH_KEYWORDS):
+            continue
+
+        entries.append(entry)
+
+    return entries
+
+def generate_rss(entries):
     now = format_datetime(datetime.utcnow())
     rss_items = ""
 
-    for entry in items[:MAX_ITEMS]:
+    for entry in entries[:MAX_ITEMS]:
         title = escape_xml(entry.title)
         description = escape_xml(entry.summary)
         pub_date = parsedate_to_datetime(entry.published)
@@ -49,30 +71,4 @@ def generate_rss(items):
         '<?xml version="1.0" encoding="UTF-8" ?>\n'
         '<rss version="2.0">\n'
         '<channel>\n'
-        '<title>ISRO &amp; Tech News - The Hindu</title>\n'
-        '<link>https://kunalkumarranjeet.github.io/isro-tech-news/</link>\n'
-        '<description>Auto-updated news feed about ISRO and tech from The Hindu</description>\n'
-        f'<lastBuildDate>{now}</lastBuildDate>\n'
-        f'{rss_items}'
-        '</channel>\n'
-        '</rss>'
-    )
-
-    return rss_feed
-
-def main():
-    feed = feedparser.parse(FEED_URL)
-    filtered_entries = []
-
-    for entry in feed.entries:
-        pub_dt = parsedate_to_datetime(entry.published)
-        if is_today_ist(pub_dt) and contains_keywords(entry.title + " " + entry.summary, KEYWORDS):
-            filtered_entries.append(entry)
-
-    rss_xml = generate_rss(filtered_entries)
-
-    with open("feed.xml", "w", encoding="utf-8") as f:
-        f.write(rss_xml)
-
-if __name__ == "__main__":
-    main()
+        '<title>ISRO, Tech &amp; World News - The Hindu</title>\
