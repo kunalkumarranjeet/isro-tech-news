@@ -1,50 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
-  <channel>
-    <title>ISRO & Tech News - The Hindu</title>
-    <link>https://kunalkumarranjeet.github.io/isro-tech-news/</link>
-    <description>Auto-updated news feed about ISRO and tech from The Hindu</description>
-    <lastBuildDate>Sun, 18 May 2025 06:05:19 -0000</lastBuildDate>
-    
-        <item>
-            <title>Fortnite says it’s offline on Apple’s iOS around the world</title>
-            <link>https://www.thehindu.com/sci-tech/technology/fortnite-says-its-offline-on-apples-ios-around-the-world/article69586302.ece</link>
-            <description>Fortnite says it’s unavailable on Apple’s iOS globally because the tech giant blocked a bid to rerelease the popular video game for iPhone users in the U.S. and Europe</description>
-            <pubDate>Sat, 17 May 2025 05:44:06 -0000</pubDate>
-            <guid>https://www.thehindu.com/sci-tech/technology/fortnite-says-its-offline-on-apples-ios-around-the-world/article69586302.ece</guid>
-        </item>
-        
-        <item>
-            <title>With Trump's second term, Big Tech embraces U.S. exceptionalism</title>
-            <link>https://www.thehindu.com/sci-tech/technology/with-trumps-second-term-big-tech-embraces-us-exceptionalism/article69582172.ece</link>
-            <description>Trump and Vice President JD Vance routinely denigrate close allies, all while promoting a nationalist agenda that many U.S. companies feel little choice but to endorse</description>
-            <pubDate>Fri, 16 May 2025 05:33:13 -0000</pubDate>
-            <guid>https://www.thehindu.com/sci-tech/technology/with-trumps-second-term-big-tech-embraces-us-exceptionalism/article69582172.ece</guid>
-        </item>
-        
-        <item>
-            <title>Mike Lynch superyacht sinking possibly stemmed from design-related vulnerability</title>
-            <link>https://www.thehindu.com/sci-tech/technology/mike-lynch-superyacht-sinking-possibly-stemmed-from-design-related-vulnerability/article69578514.ece</link>
-            <description>A report into the sinking of a superyacht that killed a British tech tycoon outlined on Thursday how the vessel's design had left it "vulnerable"</description>
-            <pubDate>Thu, 15 May 2025 08:59:23 -0000</pubDate>
-            <guid>https://www.thehindu.com/sci-tech/technology/mike-lynch-superyacht-sinking-possibly-stemmed-from-design-related-vulnerability/article69578514.ece</guid>
-        </item>
-        
-        <item>
-            <title>Intel has limited customer commitments for latest chip manufacturing tech, CFO says</title>
-            <link>https://www.thehindu.com/sci-tech/technology/intel-has-limited-customer-commitments-for-latest-chip-manufacturing-tech-cfo-says/article69573833.ece</link>
-            <description>The volume of processors Intel is set to produce for external customers using its upcoming manufacturing technology is currently "not significant", finance chief David Zinsner said</description>
-            <pubDate>Wed, 14 May 2025 03:39:05 -0000</pubDate>
-            <guid>https://www.thehindu.com/sci-tech/technology/intel-has-limited-customer-commitments-for-latest-chip-manufacturing-tech-cfo-says/article69573833.ece</guid>
-        </item>
-        
-        <item>
-            <title>Chegg to lay off 22% of workforce as AI tools shake up edtech industry</title>
-            <link>https://www.thehindu.com/sci-tech/technology/chegg-to-lay-off-22-of-workforce-as-ai-tools-shake-up-edtech-industry/article69569970.ece</link>
-            <description>Chegg said on Monday it would lay off about 22% of its workforce, or 248 employees, to cut costs and streamline its operations as students increasingly turn to AI-powered tools</description>
-            <pubDate>Tue, 13 May 2025 09:27:53 -0000</pubDate>
-            <guid>https://www.thehindu.com/sci-tech/technology/chegg-to-lay-off-22-of-workforce-as-ai-tools-shake-up-edtech-industry/article69569970.ece</guid>
-        </item>
-        
-  </channel>
+<channel>
+<title>ISRO & Tech News - The Hindu</title>
+<link>https://kunalkumarranjeet.github.io/isro-tech-news/</link>
+<description>Auto-updated news feed about ISRO and tech from The Hindu</description>
+<lastBuildDate>Sun, 18 May 2025 06:17:56 -0000</lastBuildDate>
+</channel>
 </rss>
