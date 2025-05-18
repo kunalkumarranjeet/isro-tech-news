@@ -21,7 +21,7 @@ jobs:
         run: pip install feedparser requests beautifulsoup4
 
       - name: Update Feed
-        run: python generate_feed.py  # This should generate and update feed.xml
+        run: python filter_news.py  # This should generate and update feed.xml
 
       - name: Commit and Push
         run: |
