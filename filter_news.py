@@ -61,4 +61,37 @@ def main():
 
         pub_dt = parsedate_to_datetime(entry.published)
 
-        if is_today_ist(pub_dt)_
+        if is_today_ist(pub_dt) and contains_keywords(entry.title + " " + entry.summary, KEYWORDS):
+            filtered_entries.append(entry)
+
+    if not filtered_entries:
+        now = datetime.now(IST)
+        rss_items = (
+            f"<item>\n"
+            f"<title>No new articles matching criteria today</title>\n"
+            f"<link>https://www.thehindu.com</link>\n"
+            f"<description>No relevant news articles found today.</description>\n"
+            f"<pubDate>{format_datetime(now)}</pubDate>\n"
+            f"<guid>no-news</guid>\n"
+            f"</item>\n"
+        )
+        rss_xml = (
+            '<?xml version="1.0" encoding="UTF-8" ?>\n'
+            '<rss version="2.0">\n'
+            '<channel>\n'
+            '<title>ISRO & Tech News - The Hindu</title>\n'
+            '<link>https://kunalkumarranjeet.github.io/isro-tech-news/</link>\n'
+            '<description>Auto-updated news feed about ISRO and tech from The Hindu</description>\n'
+            f'<lastBuildDate>{format_datetime(now)}</lastBuildDate>\n'
+            f'{rss_items}'
+            '</channel>\n'
+            '</rss>'
+        )
+    else:
+        rss_xml = generate_rss(filtered_entries)
+
+    with open("feed.xml", "w", encoding="utf-8") as f:
+        f.write(rss_xml)
+
+if __name__ == "__main__":
+    main()
