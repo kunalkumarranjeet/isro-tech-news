@@ -2,7 +2,6 @@ import feedparser
 from datetime import datetime
 from email.utils import format_datetime
 
-# Updated feed URL without the 7-day filter for freshest news
 FEED_URL = "https://news.google.com/rss/search?q=ISRO+OR+space+OR+tech&hl=en-IN&gl=IN&ceid=IN:en"
 MAX_ITEMS = 5  # Limit items to avoid bloating feed
 
@@ -30,4 +29,16 @@ def generate_rss(items):
     <description>Auto-updated news feed about ISRO and tech</description>
     <lastBuildDate>{now}</lastBuildDate>
     {rss_items}
-  </channe
+  </channel>
+</rss>"""
+    return rss_feed
+
+def main():
+    feed = feedparser.parse(FEED_URL)
+    rss_xml = generate_rss(feed.entries)
+
+    with open("feed.xml", "w", encoding="utf-8") as f:
+        f.write(rss_xml)
+
+if __name__ == "__main__":
+    main()
