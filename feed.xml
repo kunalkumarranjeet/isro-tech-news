@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-<title>ISRO & Tech News - The Hindu</title>
+<title>ISRO &amp; Tech News - The Hindu</title>
 <link>https://kunalkumarranjeet.github.io/isro-tech-news/</link>
 <description>Auto-updated news feed about ISRO and tech from The Hindu</description>
-<lastBuildDate>Sun, 18 May 2025 11:57:59 +0530</lastBuildDate>
-<item>
-<title>No new articles matching criteria today</title>
-<link>https://www.thehindu.com</link>
-<description>No relevant news articles found today.</description>
-<pubDate>Sun, 18 May 2025 11:57:59 +0530</pubDate>
-<guid>no-news</guid>
-</item>
+<lastBuildDate>Sun, 18 May 2025 06:36:48 -0000</lastBuildDate>
 </channel>
 </rss>
