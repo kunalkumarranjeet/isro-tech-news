@@ -28,5 +28,9 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add feed.xml
-          git commit -m "Update RSS feed"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update RSS feed"
+            git push
+          fi
