@@ -21,7 +21,7 @@ jobs:
         run: pip install feedparser requests beautifulsoup4 pytz
 
       - name: Update Feed
-        run: python filter_news.py  # This should generate and update feed.xml
+        run: python filter_news.py
 
       - name: Commit and Push
         run: |
@@ -33,3 +33,4 @@ jobs:
           else
             git commit -m "Update RSS feed"
             git push
+          fi
