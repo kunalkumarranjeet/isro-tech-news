@@ -1,44 +1,50 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
-<channel>
-  <title>ISRO & Tech News</title>
-  <link>https://github.com/kunalkumaranjeet/isro-feed</link>
-  <description>Filtered news feed for ISRO and tech updates</description>
-
-    <item>
-      <title>Intel has limited customer commitments for latest chip manufacturing tech, CFO says</title>
-      <link>https://www.thehindu.com/sci-tech/technology/intel-has-limited-customer-commitments-for-latest-chip-manufacturing-tech-cfo-says/article69573833.ece</link>
-      <description>The volume of processors Intel is set to produce for external customers using its upcoming manufacturing technology is currently "not significant", finance chief David Zinsner said</description>
-      <pubDate>Wed, 14 May 2025 09:09:05 +0530</pubDate>
-    </item>
+  <channel>
+    <title>ISRO & Tech News</title>
+    <link>https://kunalkumarranjeet.github.io/isro-tech-news/</link>
+    <description>Auto-updated news feed about ISRO and tech</description>
+    <lastBuildDate>Sun, 18 May 2025 05:59:10 -0000</lastBuildDate>
     
-    <item>
-      <title>Ray-Ban Meta smart glasses launch in India; pre-orders begin at ₹29,900</title>
-      <link>https://www.thehindu.com/sci-tech/technology/gadgets/ray-ban-meta-smart-glasses-launch-in-india-pre-orders-begin-at-29900/article69570247.ece</link>
-      <description>The smart glasses combine Ray-Ban’s established frame designs with integrated hardware and Meta’s AI technology</description>
-      <pubDate>Tue, 13 May 2025 11:33:44 +0530</pubDate>
-    </item>
-    
-    <item>
-      <title>ISRO to launch earth imaging satellite from Sriharikota on May 18, MPs to witness event</title>
-      <link>https://www.thehindu.com/sci-tech/science/isro-to-launch-earth-imaging-satellite-from-sriharikota-on-may-18-mps-to-witness-the-event/article69566801.ece</link>
-      <description>The EOS-09 satellite, weighing around 1,710 kg, will join India's growing constellation of Earth observation assets, addressing the need for expanded real-time coverage across the country’s vast territory</description>
-      <pubDate>Mon, 12 May 2025 15:34:26 +0530</pubDate>
-    </item>
-    
-    <item>
-      <title>U.S. firm Vast keen to use Indian rockets for rides to its planned space station</title>
-      <link>https://www.thehindu.com/business/Industry/us-firm-vast-keen-to-use-indian-rockets-for-rides-to-its-planned-space-station/article69563747.ece</link>
-      <description>Vast CEO Max Hoat discusses potential collaborations with ISRO for launching commercial space station using Indian rockets</description>
-      <pubDate>Sun, 11 May 2025 14:45:07 +0530</pubDate>
-    </item>
-    
-    <item>
-      <title>Quiz: Easy like Sunday morning quiz – What has May 11 ever given us?</title>
-      <link>https://www.thehindu.com/sci-tech/technology/easy-like-sunday-morning-quiz-by-berty-ashley-what-has-may-11-ever-given-us/article69544043.ece</link>
-      <description>What has May 11 ever given us? National Technology Day</description>
-      <pubDate>Fri, 09 May 2025 14:58:48 +0530</pubDate>
-    </item>
-    
-</channel>
+        <item>
+            <title>Why did Isro's PSLV-C61 mission fail after launching from Sriharikota? - India Today</title>
+            <link>https://news.google.com/rss/articles/CBMixgFBVV95cUxNQ2NMdThZTVdwQ1BNTlZFNWtLWmJvTWFEWFVpRlR2MTcwUFdJcjEtcExpeTVyazEwR1NIYURTcHFsZWwtN0E2VDhENEgxc2NJSjk4QVlVM3BiVUZrZk5LdGZsTjJzVWluaEJtLVkxYTBTcnpEd3BEWk9MeHR4QWhPbi1aYTdwZlQ2Y2xCX281R3FLbUFpTnE4LTJTc05QeG5QRWd3T1dQRUc2WTlKckJOcmVjWHFKNG5keE5DNGdYb3VCVDdxN3fSAcsBQVVfeXFMTmFoRTFCUWdFVy1XVTMwRDFVcU1iamFKd1pYQ1Y0WUdjejdvaTcxcEJ3Q05JLWxpWkxXWjJ2YXltaElnbldmZWVYSjBTX1BubTYxc2NzNWpSWDVhLWhGaUhlQ3pFek83Y2RCMDMyRXlDRnBBeV96cldJMFl5T3pDTHVra08ySDFUX2ZCeWpoVGxObXMyUWJYVkpRNmEyMXpkY2thdHAtTkZRcWV2S21Nb2dGRUdjUkJxVmNjX0JBX3E5amdzUDgtMkU4aXc?oc=5</link>
+            <description><a href="https://news.google.com/rss/articles/CBMixgFBVV95cUxNQ2NMdThZTVdwQ1BNTlZFNWtLWmJvTWFEWFVpRlR2MTcwUFdJcjEtcExpeTVyazEwR1NIYURTcHFsZWwtN0E2VDhENEgxc2NJSjk4QVlVM3BiVUZrZk5LdGZsTjJzVWluaEJtLVkxYTBTcnpEd3BEWk9MeHR4QWhPbi1aYTdwZlQ2Y2xCX281R3FLbUFpTnE4LTJTc05QeG5QRWd3T1dQRUc2WTlKckJOcmVjWHFKNG5keE5DNGdYb3VCVDdxN3fSAcsBQVVfeXFMTmFoRTFCUWdFVy1XVTMwRDFVcU1iamFKd1pYQ1Y0WUdjejdvaTcxcEJ3Q05JLWxpWkxXWjJ2YXltaElnbldmZWVYSjBTX1BubTYxc2NzNWpSWDVhLWhGaUhlQ3pFek83Y2RCMDMyRXlDRnBBeV96cldJMFl5T3pDTHVra08ySDFUX2ZCeWpoVGxObXMyUWJYVkpRNmEyMXpkY2thdHAtTkZRcWV2S21Nb2dGRUdjUkJxVmNjX0JBX3E5amdzUDgtMkU4aXc?oc=5" target="_blank">Why did Isro's PSLV-C61 mission fail after launching from Sriharikota?</a>&nbsp;&nbsp;<font color="#6f6f6f">India Today</font></description>
+            <pubDate>Sun, 18 May 2025 01:14:54 -0000</pubDate>
+            <guid>https://news.google.com/rss/articles/CBMixgFBVV95cUxNQ2NMdThZTVdwQ1BNTlZFNWtLWmJvTWFEWFVpRlR2MTcwUFdJcjEtcExpeTVyazEwR1NIYURTcHFsZWwtN0E2VDhENEgxc2NJSjk4QVlVM3BiVUZrZk5LdGZsTjJzVWluaEJtLVkxYTBTcnpEd3BEWk9MeHR4QWhPbi1aYTdwZlQ2Y2xCX281R3FLbUFpTnE4LTJTc05QeG5QRWd3T1dQRUc2WTlKckJOcmVjWHFKNG5keE5DNGdYb3VCVDdxN3fSAcsBQVVfeXFMTmFoRTFCUWdFVy1XVTMwRDFVcU1iamFKd1pYQ1Y0WUdjejdvaTcxcEJ3Q05JLWxpWkxXWjJ2YXltaElnbldmZWVYSjBTX1BubTYxc2NzNWpSWDVhLWhGaUhlQ3pFek83Y2RCMDMyRXlDRnBBeV96cldJMFl5T3pDTHVra08ySDFUX2ZCeWpoVGxObXMyUWJYVkpRNmEyMXpkY2thdHAtTkZRcWV2S21Nb2dGRUdjUkJxVmNjX0JBX3E5amdzUDgtMkU4aXc?oc=5</guid>
+        </item>
+        
+        <item>
+            <title>Indian rocket launch fails, Earth-observation satellite lost - Space</title>
+            <link>https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVVJWTGFXT0xrVXJJeHdFcWFEdTZiMW5qanFsWTV0TFo2VGlIdkwzQ2pCay1TOVN2NmFzd2QtQi14MVdYMXdlaHZsTDFGbUIwcFZXT21KclJicGxfME5TTldmai10WUR4V0hsOGxqN3FlLUJSSUVhQzRQb0VyTHd3eWJSMDBqTFA1OFlqYjdhLVN5UUd0VmlubTNpMGFCUXF6TnBvbGp3d0xkaWg2Rm1FMlVFYXZuMUdTRkhF?oc=5</link>
+            <description><a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVVJWTGFXT0xrVXJJeHdFcWFEdTZiMW5qanFsWTV0TFo2VGlIdkwzQ2pCay1TOVN2NmFzd2QtQi14MVdYMXdlaHZsTDFGbUIwcFZXT21KclJicGxfME5TTldmai10WUR4V0hsOGxqN3FlLUJSSUVhQzRQb0VyTHd3eWJSMDBqTFA1OFlqYjdhLVN5UUd0VmlubTNpMGFCUXF6TnBvbGp3d0xkaWg2Rm1FMlVFYXZuMUdTRkhF?oc=5" target="_blank">Indian rocket launch fails, Earth-observation satellite lost</a>&nbsp;&nbsp;<font color="#6f6f6f">Space</font></description>
+            <pubDate>Sun, 18 May 2025 01:56:19 -0000</pubDate>
+            <guid>https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVVJWTGFXT0xrVXJJeHdFcWFEdTZiMW5qanFsWTV0TFo2VGlIdkwzQ2pCay1TOVN2NmFzd2QtQi14MVdYMXdlaHZsTDFGbUIwcFZXT21KclJicGxfME5TTldmai10WUR4V0hsOGxqN3FlLUJSSUVhQzRQb0VyTHd3eWJSMDBqTFA1OFlqYjdhLVN5UUd0VmlubTNpMGFCUXF6TnBvbGp3d0xkaWg2Rm1FMlVFYXZuMUdTRkhF?oc=5</guid>
+        </item>
+        
+        <item>
+            <title>NDTV Explains: Why ISRO's EOS-9 Satellite Launch Failed - NDTV</title>
+            <link>https://news.google.com/rss/articles/CBMioAFBVV95cUxPeWhINXpqZnlxai02VGh0cFY2WEp3ajh4eWNhbm03YmFJQVNQU2VJRW55NUloblVPOEhKcklITmlNcHl4QUJPOGdvcXlQTkkyMjIwa0JiekpHY3RVRjFybXdibDZTaWUxT0t6VW52eE9sNDkyeW82eWZENU4ycnFUalA3RjN3RXFobjNmRWJwWmhkNU5PWV9zOTduUmt1aUIx0gGoAUFVX3lxTE83bUxmdjRlaFQyTmMzQ0QtYTBXdEF2SklNUU9FazU2ZnFLWi1wUHowME0tcjFvVWRXNTQxWlhKbHpsNWVjLVlsVU14Q0lJcHhMOGQyV0FjdURpbFhhbFNEc3o1aVZpaU1sekdISTYtQTRYXzcwWkVsY2JIdjZ3Zjc3VUYyNFR2TWRGVEJteWxoRzBhajdESjVWUXdUUjVLM2JpaFBhb2t6Ug?oc=5</link>
+            <description><a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPeWhINXpqZnlxai02VGh0cFY2WEp3ajh4eWNhbm03YmFJQVNQU2VJRW55NUloblVPOEhKcklITmlNcHl4QUJPOGdvcXlQTkkyMjIwa0JiekpHY3RVRjFybXdibDZTaWUxT0t6VW52eE9sNDkyeW82eWZENU4ycnFUalA3RjN3RXFobjNmRWJwWmhkNU5PWV9zOTduUmt1aUIx0gGoAUFVX3lxTE83bUxmdjRlaFQyTmMzQ0QtYTBXdEF2SklNUU9FazU2ZnFLWi1wUHowME0tcjFvVWRXNTQxWlhKbHpsNWVjLVlsVU14Q0lJcHhMOGQyV0FjdURpbFhhbFNEc3o1aVZpaU1sekdISTYtQTRYXzcwWkVsY2JIdjZ3Zjc3VUYyNFR2TWRGVEJteWxoRzBhajdESjVWUXdUUjVLM2JpaFBhb2t6Ug?oc=5" target="_blank">NDTV Explains: Why ISRO's EOS-9 Satellite Launch Failed</a>&nbsp;&nbsp;<font color="#6f6f6f">NDTV</font></description>
+            <pubDate>Sun, 18 May 2025 02:00:32 -0000</pubDate>
+            <guid>https://news.google.com/rss/articles/CBMioAFBVV95cUxPeWhINXpqZnlxai02VGh0cFY2WEp3ajh4eWNhbm03YmFJQVNQU2VJRW55NUloblVPOEhKcklITmlNcHl4QUJPOGdvcXlQTkkyMjIwa0JiekpHY3RVRjFybXdibDZTaWUxT0t6VW52eE9sNDkyeW82eWZENU4ycnFUalA3RjN3RXFobjNmRWJwWmhkNU5PWV9zOTduUmt1aUIx0gGoAUFVX3lxTE83bUxmdjRlaFQyTmMzQ0QtYTBXdEF2SklNUU9FazU2ZnFLWi1wUHowME0tcjFvVWRXNTQxWlhKbHpsNWVjLVlsVU14Q0lJcHhMOGQyV0FjdURpbFhhbFNEc3o1aVZpaU1sekdISTYtQTRYXzcwWkVsY2JIdjZ3Zjc3VUYyNFR2TWRGVEJteWxoRzBhajdESjVWUXdUUjVLM2JpaFBhb2t6Ug?oc=5</guid>
+        </item>
+        
+        <item>
+            <title>PSLV-C61/EOS-09 mission could not be accomplished: ISRO - The Hindu</title>
+            <link>https://news.google.com/rss/articles/CBMiqwFBVV95cUxOS3hucWdHMmxNR3JZYmd3ZDY1SDB6UUdYVjIxRmNYWlhyLTBQSGJoRENxNU9xc0FRQ0dhVjA2QlpfRTNZbVlORUtPQnpUcWxvRi15b1FuOGZ2SktGN3F4eFAtSnp1ZkRtR1FUXzh4TWxfVEt4SDNFRHpwOUdQZHVzYmh0UjAxQ0Q3ajRqNEJEZEtQRjM1SkVEN3psSnU3TVZkZGZwQWFPZVAyMVnSAbIBQVVfeXFMT3lpbGNVSFlrZFBZTWNCVnhkdms1OWVLTWc4ZGlNeWZoYXFIQ1ZDRWlOWVlvaEJWanowUU5KNVREeEVNR3RnQ0xDbEFzb1R3Q0h0QWlVSzhKQTVtQmhMSmJYRThNdlczek5iMFhXWHR6dWZZUFNXNURodENwZi1kQnpFcjhtQjVmZkxsa2U2Ymp1cUpiSXNXVG4wV3R0YWliY05UWUxsWVVod3ZKTmVtYmNidw?oc=5</link>
+            <description><a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxOS3hucWdHMmxNR3JZYmd3ZDY1SDB6UUdYVjIxRmNYWlhyLTBQSGJoRENxNU9xc0FRQ0dhVjA2QlpfRTNZbVlORUtPQnpUcWxvRi15b1FuOGZ2SktGN3F4eFAtSnp1ZkRtR1FUXzh4TWxfVEt4SDNFRHpwOUdQZHVzYmh0UjAxQ0Q3ajRqNEJEZEtQRjM1SkVEN3psSnU3TVZkZGZwQWFPZVAyMVnSAbIBQVVfeXFMT3lpbGNVSFlrZFBZTWNCVnhkdms1OWVLTWc4ZGlNeWZoYXFIQ1ZDRWlOWVlvaEJWanowUU5KNVREeEVNR3RnQ0xDbEFzb1R3Q0h0QWlVSzhKQTVtQmhMSmJYRThNdlczek5iMFhXWHR6dWZZUFNXNURodENwZi1kQnpFcjhtQjVmZkxsa2U2Ymp1cUpiSXNXVG4wV3R0YWliY05UWUxsWVVod3ZKTmVtYmNidw?oc=5" target="_blank">PSLV-C61/EOS-09 mission could not be accomplished: ISRO</a>&nbsp;&nbsp;<font color="#6f6f6f">The Hindu</font></description>
+            <pubDate>Sun, 18 May 2025 01:27:00 -0000</pubDate>
+            <guid>https://news.google.com/rss/articles/CBMiqwFBVV95cUxOS3hucWdHMmxNR3JZYmd3ZDY1SDB6UUdYVjIxRmNYWlhyLTBQSGJoRENxNU9xc0FRQ0dhVjA2QlpfRTNZbVlORUtPQnpUcWxvRi15b1FuOGZ2SktGN3F4eFAtSnp1ZkRtR1FUXzh4TWxfVEt4SDNFRHpwOUdQZHVzYmh0UjAxQ0Q3ajRqNEJEZEtQRjM1SkVEN3psSnU3TVZkZGZwQWFPZVAyMVnSAbIBQVVfeXFMT3lpbGNVSFlrZFBZTWNCVnhkdms1OWVLTWc4ZGlNeWZoYXFIQ1ZDRWlOWVlvaEJWanowUU5KNVREeEVNR3RnQ0xDbEFzb1R3Q0h0QWlVSzhKQTVtQmhMSmJYRThNdlczek5iMFhXWHR6dWZZUFNXNURodENwZi1kQnpFcjhtQjVmZkxsa2U2Ymp1cUpiSXNXVG4wV3R0YWliY05UWUxsWVVod3ZKTmVtYmNidw?oc=5</guid>
+        </item>
+        
+        <item>
+            <title>Isro's PSLV-C61/EOS-09 launch mission fails - Times of India</title>
+            <link>https://news.google.com/rss/articles/CBMisgFBVV95cUxPUG1TeThaZTF2b3Q0QjhsclBlajBTSG5BM3p0ekdrN2oySEtHMVZ4ZE82R1JTbUd2dksxNTlxNjU2Z2M1d05ST2hfc0hldDNEOXJ1NmstamVkZzM5VlNWbWkzLWxOOHNnd1hjS1NibjBIbERPVER6RDE4LWtMam1JZG9GNk1EVkx3TTJZZzNldjFZbmVZOFhuWmUyMVFWSXhVU3lvN3hkQktPZE0taXNXWXpB0gG3AUFVX3lxTE1XT19ZR3c4YzFyZVZmeVdxU0gtZjl4V3BCX09wcHl1ZE9yeGp2czFnWjRVZkNkQ21mQkVIeHhpcVFKeXg2RWRjMFRpOGdieWNqdUk4bl9VdWctdVV5a09ucEZ1bVphVURSdHUtYWh6bDBMaFNFUHlJX3dCcDNNemo3clpKNUJwSHFqei05NGdMZWhIYXBIakNnUUlVUWNfVEdfbEM3RnlrTEZrdHhhRFh3a3kxeDhUOA?oc=5</link>
+            <description><a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxPUG1TeThaZTF2b3Q0QjhsclBlajBTSG5BM3p0ekdrN2oySEtHMVZ4ZE82R1JTbUd2dksxNTlxNjU2Z2M1d05ST2hfc0hldDNEOXJ1NmstamVkZzM5VlNWbWkzLWxOOHNnd1hjS1NibjBIbERPVER6RDE4LWtMam1JZG9GNk1EVkx3TTJZZzNldjFZbmVZOFhuWmUyMVFWSXhVU3lvN3hkQktPZE0taXNXWXpB0gG3AUFVX3lxTE1XT19ZR3c4YzFyZVZmeVdxU0gtZjl4V3BCX09wcHl1ZE9yeGp2czFnWjRVZkNkQ21mQkVIeHhpcVFKeXg2RWRjMFRpOGdieWNqdUk4bl9VdWctdVV5a09ucEZ1bVphVURSdHUtYWh6bDBMaFNFUHlJX3dCcDNNemo3clpKNUJwSHFqei05NGdMZWhIYXBIakNnUUlVUWNfVEdfbEM3RnlrTEZrdHhhRFh3a3kxeDhUOA?oc=5" target="_blank">Isro's PSLV-C61/EOS-09 launch mission fails</a>&nbsp;&nbsp;<font color="#6f6f6f">Times of India</font></description>
+            <pubDate>Sun, 18 May 2025 01:06:00 -0000</pubDate>
+            <guid>https://news.google.com/rss/articles/CBMisgFBVV95cUxPUG1TeThaZTF2b3Q0QjhsclBlajBTSG5BM3p0ekdrN2oySEtHMVZ4ZE82R1JTbUd2dksxNTlxNjU2Z2M1d05ST2hfc0hldDNEOXJ1NmstamVkZzM5VlNWbWkzLWxOOHNnd1hjS1NibjBIbERPVER6RDE4LWtMam1JZG9GNk1EVkx3TTJZZzNldjFZbmVZOFhuWmUyMVFWSXhVU3lvN3hkQktPZE0taXNXWXpB0gG3AUFVX3lxTE1XT19ZR3c4YzFyZVZmeVdxU0gtZjl4V3BCX09wcHl1ZE9yeGp2czFnWjRVZkNkQ21mQkVIeHhpcVFKeXg2RWRjMFRpOGdieWNqdUk4bl9VdWctdVV5a09ucEZ1bVphVURSdHUtYWh6bDBMaFNFUHlJX3dCcDNNemo3clpKNUJwSHFqei05NGdMZWhIYXBIakNnUUlVUWNfVEdfbEM3RnlrTEZrdHhhRFh3a3kxeDhUOA?oc=5</guid>
+        </item>
+        
+  </channel>
 </rss>
