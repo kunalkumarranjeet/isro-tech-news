@@ -71,4 +71,28 @@ def generate_rss(entries):
         '<?xml version="1.0" encoding="UTF-8" ?>\n'
         '<rss version="2.0">\n'
         '<channel>\n'
-        '<title>ISRO, Tech &amp; World News - The Hindu</title>\
+        '<title>ISRO, Tech &amp; World News - The Hindu</title>\n'
+        '<link>https://kunalkumarranjeet.github.io/isro-tech-news/</link>\n'
+        '<description>Auto-updated feed with ISRO, tech, and world news from The Hindu</description>\n'
+        f'<lastBuildDate>{now}</lastBuildDate>\n'
+        f'{rss_items}'
+        '</channel>\n'
+        '</rss>'
+    )
+
+    return rss_feed
+
+def main():
+    tech_entries = fetch_filtered_entries(TECH_FEED, keyword_filter=True)
+    world_entries = fetch_filtered_entries(WORLD_FEED, keyword_filter=False)
+
+    combined = tech_entries + world_entries
+    combined.sort(key=lambda e: parsedate_to_datetime(e.published), reverse=True)
+
+    rss_xml = generate_rss(combined)
+
+    with open("feed.xml", "w", encoding="utf-8") as f:
+        f.write(rss_xml)
+
+if __name__ == "__main__":
+    main()
